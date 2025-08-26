@@ -4,8 +4,8 @@ import BookmarkContext from '../../store/bookmark-context.jsx';
 import classes from './BookmarkSummary.module.css';
 
 function BookmarkSummary() {
+  console.log('BookmarkSummary rendered');
   const bookmarkCtx = use(BookmarkContext);
-
   const numberOfArticles = bookmarkCtx.bookmarkedArticles.length;
 
   return (

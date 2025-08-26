@@ -1,6 +1,7 @@
 import BookmarkSummary from './BookmarkSummary.jsx';
 
 function BookmarkInformation() {
+  console.log('BookmarkInformation rendered');
   return (
     <section>
       <header>
