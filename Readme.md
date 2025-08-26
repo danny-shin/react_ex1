@@ -1,4 +1,10 @@
-### React Vite Shadcn Tailwind
+## React Key Concepts 
+- https://github.com/mschwarzmueller/book-react-key-concepts-e2
+- https://github.com/mschwarzmueller/book-react-key-concepts-e2/tree/10-behind-scenes/examples/03-memo
+
+-----
+
+## React Vite Shadcn Tailwind
 - https://ui.shadcn.com/docs/installation/vite
 - pnpm create vite@latest .
   - Typescript

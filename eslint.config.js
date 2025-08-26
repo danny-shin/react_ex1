@@ -8,6 +8,13 @@ import { globalIgnores } from 'eslint/config'
 export default tseslint.config([
   globalIgnores(['dist']),
   {
+    rules: {
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': ['off'],
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/no-empty-object-type': 'off',
+    },
     files: ['**/*.{ts,tsx}'],
     extends: [
       js.configs.recommended,
